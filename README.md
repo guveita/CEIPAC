@@ -52,3 +52,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.5.2"
+to install all dependencies run this command on terminal. np install.
