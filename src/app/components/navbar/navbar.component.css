@@ -1,0 +1,312 @@
+    @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #7a787a;
+    text-decoration: none;
+
+}
+.box{
+    margin-right: 200px;
+    
+}
+nav{
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    
+  }
+
+.text-logo-container{
+    font-size: 10pt;
+    color: #63717f;
+    font-family:"Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px;
+    float: left;
+}
+
+.container-1 input#search{
+    width: 300px;
+    height: 27px;
+    background: rgb(219, 211, 211);;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+
+.header2, .header3, .header4{
+    display: none;
+}
+
+.header1{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 10px 30px;
+    height: 30px;
+    width: inherit;
+    background-color: #F4F4F6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.09);
+    
+}
+.social-network-container{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    padding: 0 10px;
+    
+}
+
+.logo{
+    cursor: pointer;
+    /* margin-right: auto; */ /* SI SE DESEA CAMBIAR EL LOGO HACIA LA IZQUIERDA */
+    padding-right: 10px;
+    height: 30px;
+    width: 30px;
+    
+}
+
+.nav__links{
+    list-style: none;
+
+}
+
+.nav__links > li {
+    display: inline-block;
+    padding: 0px 5px;
+    position: relative;
+
+}
+
+.nav__links li a {
+    transition: all 0.5s ease 0s;
+
+}
+
+.nav__links li a:hover, .active {
+    /* padding: 15px; */
+    padding: 17px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #a85ad5;
+
+}
+
+.sub_menu{
+    position: absolute;
+    display:none;
+    background: rgb(219, 211, 211);
+    float:right;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: max-content;
+    z-index: 9999;
+
+}
+.sub_menu ul{
+    padding-left: 0px;
+    cursor: pointer;
+    list-style-type: none;
+    
+}
+
+.sub_menu li a{
+    display: block;
+    width: max-content; /* SEÑOR, ME HAZ MIRADO A LOS OJOS */
+    padding: 2.5px;
+}
+
+nav ul li:hover .sub_menu{
+    display: table;
+    opacity:1;
+    transition: height 0.3s ease-in;
+}
+
+button {
+    padding: 9px 10px;
+    margin-left: 10px;
+    background-color: #984CB0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    color: #F4F4F6;
+    text-decoration: none;
+
+}
+
+button:hover {
+    background-color: #B4236C;
+
+}
+@media (max-width: 1011px) {
+    .header1{
+        padding: 10px 10px;
+    }
+    .nav__links > li {
+        display: inline-block;
+        padding: 0px 5px;
+        position: relative;
+    
+    }
+    
+}
+@media (max-width: 918px) {
+    .header1, .header2{
+        display: none;
+    }
+    .header3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0.9%;
+        height: 30px;
+        width: inherit;
+        background-color: #F4F4F6;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.09);
+
+    }    
+}
+
+@media (max-width: 549px) {
+    .header1, .header2, .header3{
+        display: none;
+    }
+    .header4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0.9%;
+        height: 30px;
+        width: inherit;
+        background-color: #F4F4F6;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.09);
+
+    }    
+}
+
+
+@media (max-width: 523px) {
+    .logo{
+        cursor: pointer;
+        /* margin-right: auto; */ /* SI SE DESEA CAMBIAR EL LOGO HACIA LA IZQUIERDA */
+        margin-right: -180px;
+        height: 30px;
+        width: 30px;
+    }
+    .header1, .header3, .header4{
+        display: none;
+    }
+    .header2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0.9%;
+        height: 30px;
+        width: inherit;
+        background-color: #F4F4F6;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.09);
+
+    }
+    .logo{
+        cursor: pointer;
+        /* margin-right: auto; */ /* SI SE DESEA CAMBIAR EL LOGO HACIA LA IZQUIERDA */
+       /*  margin-right: -200px; */
+       margin: 0;
+        height: 30px;
+        width: 30px;
+    }
+    nav{
+        margin: 0;
+        justify-content: center;
+    }
+    .social-network-container{
+
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        margin-left: -20px;
+        
+    }
+}
+@media (max-width: 503px) {
+    .logo{
+        cursor: pointer;
+        /* margin-right: auto; */ /* SI SE DESEA CAMBIAR EL LOGO HACIA LA IZQUIERDA */
+        margin-right: -180px;
+        height: 30px;
+        width: 30px;
+    }
+    .header1{
+        display: none;
+    }
+    .header2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0.9%;
+        height: 30px;
+        width: inherit;
+        background-color: #F4F4F6;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.09);
+
+    }
+    .logo{
+        cursor: pointer;
+        /* margin-right: auto; */ /* SI SE DESEA CAMBIAR EL LOGO HACIA LA IZQUIERDA */
+       /*  margin-right: -200px; */
+       margin: 0;
+       float: left;
+        height: 30px;
+        width: 30px;
+    }
+    nav{
+        margin: 0;
+        justify-content: center;
+    }
+    .social-network-container{
+
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        margin-left: -20px;
+        
+    }
+}
+

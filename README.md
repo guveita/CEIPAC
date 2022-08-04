@@ -1,25 +1,27 @@
-# CEIPAC
-Pagina web
+# LandingPageTest
 
-pagina web de CEIPAC 
-instrucciones de instalacion e indicaciones
-desargar o clonar el repositorio desde cualquier herramienta de trabajo (VScode)
-en caso de usar VS puedes dar uso de su complemento git o bien pasar la carpeta al area de trabajo
-una vez teniendo el area de trabajo situarce en LnadingPageTEST 
-correr el comando npm install para que se instalen las librerias necesarias para el proyecto
-dado que es un proyecto de continuidad serciorar que las versiones de las librerias esten actualizadas
-el comando npm install te da la opcion despues si quisieras actualizar algunas librerias
-en caso contrario checar v- de librerias o en caso de querer usar otras dessintalar del paquete e instalar las que ocupen 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
-tecnologias usadas 
-*Angular
-*HTML
-*CSS
-*TypeScript
+## Development server
 
-el modelo en el cual esta programado es MVC, cada componente esta en su carpeta correspondiente, asico como sus achivos de estilos y TS
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-el uso de este reposoitorio es publico asi que cualquiera que tenga el link puede dar uso de el
-recuerden utilizar las propiedades biding y eventos ng.
+## Code scaffolding
 
-Nota.- el proyecto usa el framework de angular asi que si el seguimiento por desicion camba de framework se debera reutilizar el codigo que se puedea y generar las vistas a la manera que el cliente solicite.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

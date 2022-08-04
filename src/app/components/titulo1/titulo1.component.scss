@@ -1,0 +1,41 @@
+.title-start{
+    margin: 20px 30%;
+    border-radius: 10px;
+    h1 {
+      color:#ffffff;
+      padding: 20px;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      justify-content: center;
+      line-height: 0.8;
+      font-weight: 500;
+      font-size: 1.7rem;
+      
+    }
+    background: linear-gradient(-45deg, #eedc52, #a03ce7, #23a6d5, #1dbd3d);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    
+  }
+  
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+  @media (max-width: 844px) {
+    .title-start{
+      margin: 20px 0;
+      h1{
+        font-size: medium;
+      }
+    }
+    
+  }
+  
